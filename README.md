@@ -46,7 +46,7 @@ You can run CatBee using various command-line options to specify the CatSniffer 
 #### Example Usage
 1. Show packets on Channel 15 with a CatSniffer (no jammer):
 ```bash
-python3 catbee.py -cs /dev/ttyUSB0
+python3 catbee.py -cs /dev/ttyUSB0 -csch 15
 ```
 2. Sniff and jam using CatSniffer and Jammer:
 ```bash
@@ -59,3 +59,6 @@ python3 catbee.py --cs /dev/ttyUSB0 --jm /dev/ttyUSB1 --v
 
 >[!NOTE]
 > I am working on the jammer firmware and creating a more accessible version with fewer resource requirements. Once it is released, I will update the repository.
+
+## Working Example
+[Download and watch the video](/docs/PoC_OTA_ZigBee.mp4)
